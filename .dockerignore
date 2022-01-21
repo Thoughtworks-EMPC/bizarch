@@ -1,0 +1,8 @@
+__pycache__/
+*.db
+infra/
+.idea
+.git
+app/repo/reports/*
+README.md
+*.conf

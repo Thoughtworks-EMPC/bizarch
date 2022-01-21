@@ -1,0 +1,1 @@
+docker run -d -e NEO4J_dbms_security_procedures_unrestricted=apoc.\\\*,gds.\\\* -e NEO4J_AUTH=none -p 7474:7474 -v $PWD/data:/data:Z -v $PWD/plugins:/plugins -p 7687:7687 --name neo4j neo4j:4.0
